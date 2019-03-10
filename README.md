@@ -11,7 +11,7 @@ To use it just install it globally with the Infinity Gems NPM packages.
     $ npm install -g space
     $ npm install -g time
     $ npm install -g soul
-    $ npm install -g thanos
+    $ npm install -g thanos-glove
 
 After it, you can run:
 
@@ -50,3 +50,7 @@ To randomly delete 50% of the files on the current directory and its subdirector
 ### Why no need to install the power package?
 
 I got an error when I installed the power package globally, since it's not possible to install it globally with this error, I preferred to remove it from this package.
+
+### Why the name of the package is not thanos or thanosjs?
+
+When I developed this package I didn't notice that there was another package names "thanos-js", so npm didn't allow me to upload as "thanosjs".

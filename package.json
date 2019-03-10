@@ -1,5 +1,5 @@
 {
-  "name": "thanosjs",
+  "name": "thanos-glove",
   "version": "1.0.0",
   "description": "Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.",
   "main": "index.js",
