@@ -9,7 +9,7 @@ const thanos = require('./thanos');
 
 const cli = meow(`
     Usage
-      After install globally the power, reality, mind, space, time and soul packages from npm, just run:
+      After install globally the reality, mind, space, time and soul packages from npm, just run:
 
       $ thanos snap-fingers
  

@@ -24,7 +24,7 @@ To randomly delete 50% of the files on the current directory and its subdirector
     Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.
 
     Usage
-    After install globally the power, reality, mind, space, time and soul packages from npm, just run:
+    After install globally the reality, mind, space, time and soul packages from npm, just run:
 
         $ thanos snap-fingers
 
