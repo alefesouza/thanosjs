@@ -20,7 +20,7 @@ const thanos = async (thePath, confirmation) => {
 
   const files = walkSync(thePath, {
     directories: false,
-    ignore: ['node_modules', 'vendor'],
+    ignore: ['node_modules', 'vendor', '.git'],
   });
 
   const randomFiles = files.sort(() => 0.5 - Math.random());

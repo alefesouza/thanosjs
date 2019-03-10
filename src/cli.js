@@ -9,7 +9,7 @@ const thanos = require('./thanos');
 
 const cli = meow(`
     Usage
-      After install globally the reality, mind, space, time and soul packages from npm, just run:
+      After install it globally and the reality, mind, space, time and soul packages from npm, just run:
 
       $ thanos snap-fingers
  
@@ -63,12 +63,10 @@ if (force) {
 const gems = ['reality', 'mind', 'space', 'time', 'soul'];
 const globalPackages = fs.readdirSync(globalDirs.npm.packages);
 
-const notInstalledGems = gems.filter(gem => {
-  return !globalPackages.includes(gem);
-});
+const notInstalledGems = gems.filter(gem => !globalPackages.includes(gem));
 
 if (notInstalledGems.length > 0) {
-  console.log('You have not installed all Thanos packages, to install it just run: \n');
+  console.log('You have not installed all the Infinity Gems packages, to install it just run: \n');
 
   notInstalledGems.forEach(gem => {
     console.log(`$ npm install -g ${gem}`);
