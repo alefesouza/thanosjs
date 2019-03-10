@@ -1,6 +1,6 @@
 {
   "name": "thanos-glove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,12 @@
     "url": "git+https://github.com/alefesouza/thanosjs.git"
   },
   "keywords": [
-    "parody"
+    "parody",
+    "avenger",
+    "thanos",
+    "thanosjs",
+    "thanos-js",
+    "thanos js"
   ],
   "author": "Alefe Souza <contact@alefesouza.com>",
   "license": "MIT",

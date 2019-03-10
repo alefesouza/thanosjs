@@ -8,8 +8,6 @@ const globalDirs = require('global-dirs');
 const thanos = require('./thanos');
 
 const cli = meow(`
-    Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.
-
     Usage
       After install globally the power, reality, mind, space, time and soul packages from npm, just run:
 
