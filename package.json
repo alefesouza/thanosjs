@@ -1,0 +1,36 @@
+{
+  "name": "thanosjs",
+  "version": "1.0.0",
+  "description": "Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.",
+  "main": "index.js",
+  "bin": {
+    "thanos": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefesouza/thanosjs.git"
+  },
+  "keywords": [
+    "parody"
+  ],
+  "author": "Alefe Souza <contact@alefesouza.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alefesouza/thanosjs/issues"
+  },
+  "homepage": "https://github.com/alefesouza/thanosjs#readme",
+  "dependencies": {
+    "global-dirs": "^0.1.1",
+    "meow": "^5.0.0",
+    "prompt-confirm": "^2.0.4",
+    "walk-sync": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
