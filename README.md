@@ -33,7 +33,7 @@ To randomly delete 50% of the files on the current directory and its subdirector
         --with-glove You need the glove to delete the files.
         --path, -p The path to randomly delete including its subdirectories, otherwise will run on current directory.
         --force, -f Skip the process and remove the files without installing the Infinity Gems packages.
-        --no-ask, -y Run it without confirmation (use it with caution, I'm responsible for anything).
+        --no-ask, -y Run it without confirmation (use it with caution, I'm not responsible for anything).
 
     Examples
 
@@ -51,6 +51,6 @@ To randomly delete 50% of the files on the current directory and its subdirector
 
 I got an error when I installed the power package globally, since it's not possible to install it globally with this error, I preferred to remove it from this package.
 
-### Why the name of the package is not thanos or thanosjs?
+### Why the package name is not thanos or thanosjs?
 
 When I developed this package I didn't notice that there was another package names "thanos-js", so npm didn't allow me to upload as "thanosjs".

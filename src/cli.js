@@ -17,7 +17,7 @@ const cli = meow(`
       --with-glove  You need the glove to delete the files.
       --path, -p  The path to randomly delete including its subdirectories, otherwise will run on current directory.
       --force, -f  Skip the process and remove the files without installing the Infinity Gems packages.
-      --no-ask, -y  Run it without confirmation (use it with caution, I'm responsible for anything).
+      --no-ask, -y  Run it without confirmation (use it with caution, I'm not responsible for anything).
  
     Examples
       $ thanos snap-fingers --with-glove
