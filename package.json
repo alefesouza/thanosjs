@@ -1,6 +1,6 @@
 {
   "name": "thanos-glove",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Thanos JS reduces the file size of your project down to 50%, by randomly deleting half of the files.",
   "main": "index.js",
   "bin": {
@@ -16,6 +16,8 @@
   "keywords": [
     "parody",
     "avenger",
+    "avengers",
+    "marvel",
     "thanos",
     "thanosjs",
     "thanos-js",
